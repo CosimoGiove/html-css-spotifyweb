@@ -32,6 +32,7 @@
     background-color: black;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo2 {
@@ -50,7 +51,6 @@
     width: 22px;
     margin-right: 8px;
     margin-left: 20px;
-    filter: grayscale(1);
 }
 
 .containericon{
@@ -99,6 +99,31 @@
     list-style: none;
     font-size: 12px;
 }
+
+.dowloadicon{
+    width: 15px;
+    margin-right: 8px;
+    margin-left: 20px
+}
+
+hr{
+    width: 193px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.imgprofilo img{
+    width: 25px;
+    height: 25px;
+    background-color: #808080;
+    border-radius: 50%;
+}
+
+.nameprofilo{
+    color: white;
+    font-weight: bold;
+}
+
 
 
 
