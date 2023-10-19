@@ -401,9 +401,7 @@ footer {
     text-align: end;
 }
 
-.responsive{
-    flex-shrink: ;
-}
+
 
 
 
@@ -422,7 +420,7 @@ footer {
 
 @media screen and (max-width:1200px) {
     .volume{
-        width: 75%;
+        width: 72%;
     }
 }
 
@@ -448,7 +446,19 @@ footer {
     .volume{
         width: 60%;
     }
+    .logosinister img{
+        width: 40px;
+        height: 40px;
+    }
 
+    .nomebrano{
+        margin-left: 5px;
+    }
+
+    .heart{
+        margin-left: 4px;
+        margin-right: 5px;
+    }
 }
 
 
@@ -483,6 +493,7 @@ footer {
     .volume{
         width: 50%;
     }
+
 
 }
 
