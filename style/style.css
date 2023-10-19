@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
 }
 /** fine reset**/
 
@@ -21,13 +20,13 @@ h3{
     margin-top: 20px;
     margin-bottom: 10px;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 h4{
     color: #464a51;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -42,8 +41,8 @@ h4{
     width: 100vw;
     height: calc(100vh - 90px);
     display: flex;
-    overflow-y: scroll;
     background-color: #141922;
+    overflow-y: hidden;
 }
 
 /* NAV*/
@@ -59,6 +58,11 @@ h4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+}
+
+.navigazione{
+    overflow-y: scroll;
 }
 
 .logo2 {
@@ -133,6 +137,11 @@ h4{
     margin-left: 20px
 }
 
+.col-list{
+    overflow-y: auto;
+    height: 200px;
+}
+
 hr{
     width: 170px;
     margin: 0 auto;
@@ -166,7 +175,7 @@ hr{
     color: white;
     border: 1px solid  white;
     padding: 15px 40px;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-right: 5px;
 }
 
@@ -196,19 +205,19 @@ hr{
 /**inizio corpo pagina**/
 .rowcorpo{
   max-width: 100%;
-  margin-left: 15px;
+  margin-left: 20px;
   margin-top: 35px;
 }
 
 .rowcorpo h2{
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     font-weight: bold;
 }
 
 .row-1{
     display: flex;
-    margin-left: 15px;
+    margin-left: 20px;
     margin-top: 30px;
 }
 
@@ -226,8 +235,19 @@ hr{
     text-align: center;
 }
 
+.jhondoe h4{
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.circle img{
+    border-radius: 50%;
+}
+
 /** fine corpo pagina**/
 
+footer{
+}
 
 
 
@@ -236,9 +256,15 @@ hr{
 
 
 /**inizio responsive**/
-/* da 0 a 768px */
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1200px)
+{
+}
+
+
+/* da 0 a 992px */
+
+@media screen and (max-width:992px){
     hr{
         width: 150px;
         margin: 0 auto;
@@ -258,8 +284,8 @@ hr{
 
 
 
- /* da 0 a 575 */
- @media screen and (max-width: 575px) {
+ /* da 0 a 768 */
+ @media screen and (max-width: 768px) {
     .navleft {
         max-width: 230px;
     }
@@ -278,10 +304,14 @@ hr{
         text-align: center;
     }
 
- }
- /**media queries da 0 a 574px**/
+    .link-navigation{
+        padding-left: 10px;
+    }
 
- @media screen and (max-width:574px){
+ }
+ /**media queries da 0 a 575px**/
+
+ @media screen and (max-width:575px){
     .logo img{
         display: none;
     }
@@ -311,7 +341,7 @@ hr{
 
    .dowloadicon img{
     width: 15px;
-    margin-left: 5px;
+    margin-left: 4px;
     margin-bottom: 15px;
    }
 
@@ -319,8 +349,9 @@ hr{
     margin-top: 5px;
    }
    .box{
-    width: calc(100%/2.3);
+    width: calc(100%/2.4);
     margin-top: 10px;
+    margin-left: 10px;
     
 }
  }
