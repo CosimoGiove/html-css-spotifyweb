@@ -402,9 +402,6 @@ footer {
 }
 
 
-
-
-
 .volumeright {
     width: 25px;
     height: 5px;
@@ -456,8 +453,8 @@ footer {
     }
 
     .heart{
-        margin-left: 4px;
         margin-right: 5px;
+        margin-left: 0px;
     }
 }
 
@@ -551,8 +548,78 @@ footer {
 
     }
     .volume{
-        width: 30%;
+        width:85px;
     }
+
+    .volumeleft{
+        width: 20px;
+    }
+
+    .responsive{
+        min-width: 160px;
+    }
+
+    .heart,.file{
+        display: block;
+        margin-right: 0;
+        font-size: 12px;
+    }
+
+    .iconbrani{
+        margin: 25px 5px;
+    }
+    .logosinister img {
+        width: 25px;
+        height: 25px;
+    }
+    .nomebrano {
+        width: 10px;
+    }
+
+    .medias{
+        margin-left: 50px;
+    }
+
+    .volumesecondary{
+        width: 50px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .free{
+        height: 0px;
+    }
+
+    .heart,.file{
+        display: inline-block;
+    }
+
+    .responsives{
+        display: flex;
+    }
+    .fa-shuffle, .fa-backward-step, .fa-forward-step,
+    .fa-arrow-rotate-right {
+        font-size: 11px;
+        margin-left: 10px;
+    }
+
+    .minuteright{
+        margin-left:0px;
+        font-size: 10px;
+    }
+
+    .seconds{
+        margin-right: 0px;
+        font-size: 10px;
+    }
+
+    .volumeright{
+        width: 15px;
+    }
+    .fa-circle-play{
+        margin-left: 10px;
+    }
+
+
 
 
 }
