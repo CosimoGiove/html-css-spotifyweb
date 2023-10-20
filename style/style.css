@@ -553,22 +553,22 @@ button h2:hover{
         opacity:0; background-color: black;
     }
 
-    20%{
+    30%{
         opacity:0.1; background-color: black;
     }
     40%{
-        opacity:0.3;background-color: black;
+        opacity:0.2;background-color: black;
     }
 
     50%{
-        opacity:0.4;background-color: black;
+        opacity:0.3;background-color: black;
     }
 
     60%{
-        opacity:0.5;background-color: black
+        opacity:0.4;background-color: black
     }
     70%{
-        opacity: 0.6;
+        opacity: 0.5;
     }
 
     80%{
