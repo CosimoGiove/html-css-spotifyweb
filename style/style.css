@@ -87,6 +87,11 @@ h4 {
     width: 22px;
     margin-right: 8px;
     margin-left: 20px;
+   
+}
+
+.homeleft{
+    border-left: 3px solid  #adff2f;
 }
 
 .containericon {
@@ -173,6 +178,7 @@ hr {
     width:100%;
     height: 90px;
     background-color: rgba(8,11,18,0.8);
+    z-index: 99;
 }
 
 /**inizio nav top **/
@@ -234,11 +240,36 @@ hr {
     margin-left: 20px;
     margin-top: 30px;
 }
+.inevidenzia{
+    height: 2px;
+    width: 50px;
+    margin: 0 auto;
+    background-color:#adff2f;
+    margin-top: 5px;
+}
+
 
 .box {
     width: calc(100%/6);
     margin-right: 15px;
 }
+
+.imgtitle{
+    position: relative;
+}
+
+.iconplay{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+}
+.fa-play{
+    font-size: 40px;
+    color: white;
+    display: none;
+}
+
 
 .box img {
     width: 100%;
@@ -286,19 +317,16 @@ footer {
 }
 
 .seconds {
-    margin-right: 20px;
+    margin-right:10px;
     font-size: 12px;
     color: white;
 }
 
 .minuteright {
-    margin-left: 20px;
+    margin-left:10px;
     font-size: 12px;
     color: white;
 }
-
-
-
 
 
 .logosinister img {
@@ -414,6 +442,80 @@ footer {
 
 /**fine footer**/
 
+/**hover**/
+
+.box .imgtitle:hover .fa-play{
+    display: block; 
+}
+
+.imgtitle img:hover{
+    opacity: 0.4;
+    transition: 0.2s ease;
+}
+
+button h2:hover{
+    font-size: 14px;
+    color: green;
+}
+
+.row-navigation li a:hover{
+    color: white;
+    transition: 0.2s ease;
+}
+
+.text:hover{
+    color: white;
+    transition: 0.1s ease;
+}
+
+.plus:hover{
+    background-color:  white;
+}
+
+.col-list li:hover{
+    color: white;
+}
+
+.nomebrano div:hover{
+    border-bottom: 2px solid white;
+}
+
+.fa-regular:hover{
+    color: white;
+}
+
+.fa-circle-play:hover{
+    color: green;
+    cursor: pointer;
+}
+.fa-shuffle:hover{
+    color: black;
+    cursor: pointer;
+}
+.fa-backward-step:hover{
+    color: black;
+    cursor: pointer;
+}
+.fa-forward-step:hover{
+    color: black;
+    cursor: pointer;
+}
+.fa-arrow-rotate-right:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.volumeleft:hover{
+    background-color: #adff2f;
+}
+
+
+
+
+
+
+
+/**hover**/
 
 
 /**inizio responsive**/
