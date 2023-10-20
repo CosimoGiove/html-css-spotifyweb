@@ -611,6 +611,16 @@ button h2:hover{
         width: 300px
     }
 }
+.iconbrani ul li img {
+    animation: img   2s infinite;
+}
+
+@keyframes img {
+    0% {
+        transform: rotate(1turn);
+
+    }    
+}
 
 
 
