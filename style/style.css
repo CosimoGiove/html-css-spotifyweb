@@ -467,6 +467,7 @@ footer {
 button h2:hover{
     font-size: 14px;
     color: green;
+    cursor: cell;
 }
 
 .row-navigation li a:hover{
@@ -524,6 +525,7 @@ button h2:hover{
 .logo img:hover{
     background-color:  green;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .volumeright:hover{
@@ -536,8 +538,8 @@ button h2:hover{
 
 @keyframes animazionebottone {
     0%{transform: rotate(0deg); color: white;}
-    20%{transform: rotate(10deg);color: green ;}
-    40%{transform: rotate(0deg); color: white;}
+    20%{transform: rotate(10deg);color: green; border: 2px solid #ccff00 ; }
+    40%{transform: rotate(0deg); color: white; border: 2px solid #ffa343;}
     60%{transform: rotate(-10deg); color: green;}
     100%{transform: rotate(0deg); color: white;}
 }
