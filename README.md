@@ -1,2 +1,2 @@
-# ho realizzato  la web app più conosciuta su  smartphone e tablet,
+# ho realizzato spotify prova ad ggiornare la pagina :D,
 spotify, ho  reso la web app adattabile a qualsiasi smartphone e tablet, ho inserito gli hover, per rendere la web app più accattivante,
