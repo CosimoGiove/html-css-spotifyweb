@@ -448,7 +448,7 @@ footer {
 
 /**fine footer**/
 
-/**hover**/
+/**hover***/
 
 .box .imgtitle:hover .fa-play{
     display: block; 
@@ -473,6 +473,7 @@ button h2:hover{
     color: white;
     transition: 0.2s ease;
 }
+
 
 .text:hover{
     color: white;
