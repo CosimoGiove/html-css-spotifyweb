@@ -14,6 +14,10 @@ button {
     padding-right: 220px;
 }
 
+button h2{
+    animation: animazionebottone 5s infinite
+}
+
 a {
     text-decoration: none;
 }
@@ -274,6 +278,8 @@ hr {
 .box img {
     width: 100%;
     display: block;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 .title-film {
@@ -446,11 +452,17 @@ footer {
 
 .box .imgtitle:hover .fa-play{
     display: block; 
+    cursor: pointer;
 }
 
 .imgtitle img:hover{
-    opacity: 0.4;
-    transition: 0.2s ease;
+    opacity: 0.5;
+    box-shadow: 4px 4px 4px 4px green;
+}
+
+.box:hover{
+    opacity: 0.5;
+    transition: 0.5s ease;
 }
 
 button h2:hover{
@@ -509,13 +521,65 @@ button h2:hover{
     background-color: #adff2f;
 }
 
-
-
-
-
-
+.logo img:hover{
+    background-color:  green;
+    border-radius: 10px;
+}
 
 /**hover**/
+
+/**key frame**/
+
+@keyframes animazionebottone {
+    0%{transform: rotate(0deg); color: white;}
+    20%{transform: rotate(10deg);color: green ;}
+    40%{transform: rotate(0deg); color: white;}
+    60%{transform: rotate(-10deg); color: green;}
+    100%{transform: rotate(0deg); color: white;}
+}
+
+.navigazione{
+    animation: main 1.2s ease;
+}
+
+@keyframes main {
+    0%{
+        opacity:0; background-color: black;
+    }
+
+    20%{
+        opacity:0.1; background-color: black;
+    }
+    40%{
+        opacity:0.3;background-color: black;
+    }
+
+    50%{
+        opacity:0.4;background-color: black;
+    }
+
+    60%{
+        opacity:0.5;background-color: black
+    }
+    70%{
+        opacity: 0.6;
+    }
+
+    80%{
+        opacity:0.7;
+    }
+    90%{
+        opacity: 0.9;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+/**key frame**/
+
+
 
 
 /**inizio responsive**/
@@ -784,4 +848,8 @@ button h2:hover{
     button{
         padding-right: 70px;
     }
+    .homeleft{
+        border: none;
+    }
 }
+
