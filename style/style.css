@@ -457,7 +457,6 @@ footer {
 
 .imgtitle img:hover{
     opacity: 0.5;
-    box-shadow: 4px 4px 4px 4px green;
 }
 
 .box:hover{
