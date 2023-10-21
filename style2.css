@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #141922;
+}
+
+
+
+/**header**/
+.containerheader{
+    display: flex;
+    justify-content: space-between;
+    background-color: #080b12;
+}
+
+.navtop img{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.navtop h2{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+}
+/** fine header**/
+
+
+/**main**/
+.container-card{
+
+    width: 350px;
+    height: 440px;
+    background-color: rgba(18, 85, 1, 0.3);
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px  black;
+
+
+}
+.time2{
+    max-width: 80px;
+    height: 5px;
+    background-color: grey;
+    border-radius: 10px;
+
+}
+
+.imgcard img{
+    max-width:230px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imgcard{
+    text-align: center;
+}
+
+.audio{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.time{
+    width: 50%;
+    height: 5px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.title-film{
+    text-align: center;
+}
+
+.blurimg {
+    filter: blur(10px);
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/** fine main**/
+
+body{
+    animation: main 1.8s ease-in-out;
+}
+
+@keyframes main {
+    0%{
+        opacity:0; background-color: black;
+    }
+    10%{
+        opacity: 0.1;background-color: black;
+    }
+    20%{
+        opacity: 0.2; background-color: black;
+    }
+
+    30%{
+        opacity:0.3; background-color: black;
+    }
+    40%{
+        opacity:0.4;background-color: black;
+    }
+
+    50%{
+        opacity:0.5;
+    }
+
+    60%{
+        opacity:0.6;
+    }
+    70%{
+        opacity: 0.7;
+    }
+
+    80%s{
+        opacity:0.8;
+    }
+    90%s{
+        opacity: 0.9;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+@media screen and(max-width:567px){
+    .container-card{
+        width: 300px
+    }
+}
