@@ -2,3 +2,5 @@
 spotify, ho  reso la web app adattabile a qualsiasi smartphone e tablet, ho inserito gli hover, per rendere la web app più accattivante,
 ho utilizzato anche animation per renderla una vera webapp.
 ora è possibile ascoltare la musica, clicca su play.
+è possibile   cliccare sulle card delle canzoni per accedere  alla canzone e ascoltarla. 
+
