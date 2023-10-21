@@ -266,7 +266,7 @@ hr {
 .box {
     width: calc(100%/6);
     margin-right: 15px;
-    animation: box 2.5s ease-in-out;
+    animation: box 3s ease-in-out;
 }
 
 .imgtitle{
